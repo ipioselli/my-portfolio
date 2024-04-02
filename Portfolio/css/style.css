@@ -4,18 +4,248 @@
     box-sizing: border-box;
 }
 
-/* @font-face {
-    font-family: ;
-    src: url();
-} */
 
-body{
+
+
+
+@font-face {
+    font-family: 'Satoshi-Variable';
+    src: url('../fonts/Satoshi-Variable.woff2') format('woff2'),
+         url('../fonts/Satoshi-Variable.woff') format('woff'),
+         url('../fonts/Satoshi-Variable.ttf') format('truetype');
+         font-weight: 300 900;
+         font-display: swap;
+         font-style: normal;
+  }
+  
+  
+
+  
+  @font-face {
+    font-family: 'Satoshi-VariableItalic';
+    src: url('../fonts/Satoshi-VariableItalic.woff2') format('woff2'),
+         url('../fonts/Satoshi-VariableItalic.woff') format('woff'),
+         url('../fonts/Satoshi-VariableItalic.ttf') format('truetype');
+         font-weight: 300 900;
+         font-display: swap;
+         font-style: italic;
+  }
+  
+  
+  @font-face {
+    font-family: 'Satoshi-Light';
+    src: url('../fonts/Satoshi-Light.woff2') format('woff2'),
+         url('../fonts/Satoshi-Light.woff') format('woff'),
+         url('../fonts/Satoshi-Light.ttf') format('truetype');
+         font-weight: 300;
+         font-display: swap;
+         font-style: normal;
+  }
+  
+  
+  @font-face {
+    font-family: 'Satoshi-LightItalic';
+    src: url('../fonts/Satoshi-LightItalic.woff2') format('woff2'),
+         url('../fonts/Satoshi-LightItalic.woff') format('woff'),
+         url('../fonts/Satoshi-LightItalic.ttf') format('truetype');
+         font-weight: 300;
+         font-display: swap;
+         font-style: italic;
+  }
+  
+  
+  @font-face {
+    font-family: 'Satoshi-Regular';
+    src: url('../fonts/Satoshi-Regular.woff2') format('woff2'),
+         url('../fonts/Satoshi-Regular.woff') format('woff'),
+         url('../fonts/Satoshi-Regular.ttf') format('truetype');
+         font-weight: 400;
+         font-display: swap;
+         font-style: normal;
+  }
+  
+  
+  @font-face {
+    font-family: 'Satoshi-Italic';
+    src: url('../fonts/Satoshi-Italic.woff2') format('woff2'),
+         url('../fonts/Satoshi-Italic.woff') format('woff'),
+         url('../fonts/Satoshi-Italic.ttf') format('truetype');
+         font-weight: 400;
+         font-display: swap;
+         font-style: italic;
+  }
+  
+  
+  @font-face {
+    font-family: 'Satoshi-Medium';
+    src: url('../fonts/Satoshi-Medium.woff2') format('woff2'),
+         url('../fonts/Satoshi-Medium.woff') format('woff'),
+         url('../fonts/Satoshi-Medium.ttf') format('truetype');
+         font-weight: 500;
+         font-display: swap;
+         font-style: normal;
+  }
+  
+  
+  @font-face {
+    font-family: 'Satoshi-MediumItalic';
+    src: url('../fonts/Satoshi-MediumItalic.woff2') format('woff2'),
+         url('../fonts/Satoshi-MediumItalic.woff') format('woff'),
+         url('../fonts/Satoshi-MediumItalic.ttf') format('truetype');
+         font-weight: 500;
+         font-display: swap;
+         font-style: italic;
+  }
+  
+  
+  @font-face {
+    font-family: 'Satoshi-Bold';
+    src: url('../fonts/Satoshi-Bold.woff2') format('woff2'),
+         url('../fonts/Satoshi-Bold.woff') format('woff'),
+         url('../fonts/Satoshi-Bold.ttf') format('truetype');
+         font-weight: 700;
+         font-display: swap;
+         font-style: normal;
+  }
+  
+  
+  @font-face {
+    font-family: 'Satoshi-BoldItalic';
+    src: url('../fonts/Satoshi-BoldItalic.woff2') format('woff2'),
+         url('../fonts/Satoshi-BoldItalic.woff') format('woff'),
+         url('../fonts/Satoshi-BoldItalic.ttf') format('truetype');
+         font-weight: 700;
+         font-display: swap;
+         font-style: italic;
+  }
+  
+  
+  @font-face {
+    font-family: 'Satoshi-Black';
+    src: url('../fonts/Satoshi-Black.woff2') format('woff2'),
+         url('../fonts/Satoshi-Black.woff') format('woff'),
+         url('../fonts/Satoshi-Black.ttf') format('truetype');
+         font-weight: 900;
+         font-display: swap;
+         font-style: normal;
+  }
+  
+  
+  @font-face {
+    font-family: 'Satoshi-BlackItalic';
+    src: url('../fonts/Satoshi-BlackItalic.woff2') format('woff2'),
+         url('../fonts/Satoshi-BlackItalic.woff') format('woff'),
+         url('../fonts/Satoshi-BlackItalic.ttf') format('truetype');
+         font-weight: 900;
+         font-display: swap;
+         font-style: italic;
+  }
+
+  @font-face {
+    font-family: 'Chillax-Variable';
+    src: url('../fonts/Chillax-Variable.woff2') format('woff2'),
+         url('../fonts/Chillax-Variable.woff') format('woff'),
+         url('../fonts/Chillax-Variable.ttf') format('truetype');
+         font-weight: 200 700;
+         font-display: swap;
+         font-style: normal;
+  }
+  
+  
+  @font-face {
+    font-family: 'Chillax-Extralight';
+    src: url('../fonts/Chillax-Extralight.woff2') format('woff2'),
+         url('../fonts/Chillax-Extralight.woff') format('woff'),
+         url('../fonts/Chillax-Extralight.ttf') format('truetype');
+         font-weight: 200;
+         font-display: swap;
+         font-style: normal;
+  }
+  
+  
+  @font-face {
+    font-family: 'Chillax-Light';
+    src: url('../fonts/Chillax-Light.woff2') format('woff2'),
+         url('../fonts/Chillax-Light.woff') format('woff'),
+         url('../fonts/Chillax-Light.ttf') format('truetype');
+         font-weight: 300;
+         font-display: swap;
+         font-style: normal;
+  }
+  
+  
+  @font-face {
+    font-family: 'Chillax-Regular';
+    src: url('../fonts/Chillax-Regular.woff2') format('woff2'),
+         url('../fonts/Chillax-Regular.woff') format('woff'),
+         url('../fonts/Chillax-Regular.ttf') format('truetype');
+         font-weight: 400;
+         font-display: swap;
+         font-style: normal;
+  }
+  
+  
+  @font-face {
+    font-family: 'Chillax-Medium';
+    src: url('../fonts/Chillax-Medium.woff2') format('woff2'),
+         url('../fonts/Chillax-Medium.woff') format('woff'),
+         url('../fonts/Chillax-Medium.ttf') format('truetype');
+         font-weight: 500;
+         font-display: swap;
+         font-style: normal;
+  }
+  
+  
+  @font-face {
+    font-family: 'Chillax-Semibold';
+    src: url('../fonts/Chillax-Semibold.woff2') format('woff2'),
+         url('../fonts/Chillax-Semibold.woff') format('woff'),
+         url('../fonts/Chillax-Semibold.ttf') format('truetype');
+         font-weight: 600;
+         font-display: swap;
+         font-style: normal;
+  }
+  
+  
+  @font-face {
+    font-family: 'Chillax-Bold';
+    src: url('../fonts/Chillax-Bold.woff2') format('woff2'),
+         url('../fonts/Chillax-Bold.woff') format('woff'),
+         url('../fonts/Chillax-Bold.ttf') format('truetype');
+         font-weight: 700;
+         font-display: swap;
+         font-style: normal;
+  }
+  
+  
+  
+  
+
+.body{
     font-size: 20px;
     background-color:white;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 120px;
+    margin-right: 120px;
 
 }
+
+/* html {
+    cursor: none;
+  } */
+
+#circularcursor {
+    background-color: transparent;
+    border:1px solid black;    
+    height:20px;
+    width:20px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  
 
 .logo{
     float: left;
@@ -24,9 +254,11 @@ body{
 
 
 nav{
-    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     height:100px;
     /* background-color: red; */
+    border-bottom: solid black 2px;
     
 }
 
@@ -35,6 +267,8 @@ nav h2{
     margin:20px;
     float: right;
     font-size: 20px;
+    font-family: Satoshi-Bold;
+   
 
 }
 
@@ -50,5 +284,100 @@ nav a:visited{
 nav a:hover{
     color:#5262D1;
     text-decoration: underline solid 2px;
-    cursor: pointer;
+    text-underline-offset: 8px;
+    /* cursor: pointer; */
+    transition: 0.3s;
 }
+
+.header{
+    margin-top: 150px;
+    margin-bottom: 100px;
+    display: flex;
+}
+
+.header h2{
+    color: #4D55F5;
+    font-family: Chillax-Bold;
+    font-size: 72px;
+    margin-bottom: 100px;
+}
+
+.header p{
+
+    font-size: 32px;
+    font-family: Satoshi-Regular ;
+
+}
+
+.name{
+    margin-bottom: 80px;
+}
+
+.me{
+    margin-right: 50px;
+}
+
+/* .button{
+    margin-bottom: 100px;
+} */
+
+.arrow-button{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+   
+    width: 93px;
+    height: 93px;
+    background:url("../images/button.png")no-repeat center center;
+    position: contain;
+   
+
+    
+}
+
+.arrow-button:hover{
+    background:url("../images/button-hover.png")no-repeat center center;
+    position: contain;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+
+
+.moving-text {
+    border-bottom: solid #5262D1 2px;
+    border-top: solid #5262D1 2px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    width: 100%;
+    z-index: 0;
+    overflow: hidden;
+    left: 0;
+    bottom: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
+  .bar-left{
+    display: block;
+    background: url("../images/bar.svg") repeat-x;
+    /* margin-top:20px; HOW CAN IT BE IN THE MIDDLE */
+    height: 50px;
+    width: 5000px;
+    opacity:0;
+    transition: all 5s;
+  }
+  
+  .bar-left.is-visible {
+    opacity: 1;
+    animation:slide-left 30s linear infinite;
+  }
+
+  @keyframes slide-left{
+    0% {
+      transform: translate3d(0, 0, 0);
+    }
+    100% {
+      transform: translate3d(-2000px, 0, 0);
+    }
+  }
