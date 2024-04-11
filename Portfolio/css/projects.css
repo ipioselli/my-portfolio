@@ -52,25 +52,25 @@
   .project1-header{
     margin-bottom: 100px;
     height:392px;
-    background: url("/Portfolio/images/bg.png") no-repeat center center;
+    background: url("../images/bg.png") no-repeat center center;
   }
 
   .project2-header{
     margin-bottom: 100px;
     height:392px;
-    background: url("/Portfolio/images/project2-bg.svg") no-repeat center center;
+    background: url("../images/project2-bg.svg") no-repeat center center;
   }
 
   .project3-header{
     margin-bottom: 100px;
     height:392px;
-    background: url("/Portfolio/images/project3-bg.svg") no-repeat center center;
+    background: url("../images/project3-bg.svg") no-repeat center center;
   }
 
   .project4-header{
     margin-bottom: 100px;
     height:392px;
-    background: url("/Portfolio/images/bg-4.svg") no-repeat center center;
+    background: url("../images/bg-4.svg") no-repeat center center;
   }
 
 
@@ -79,7 +79,7 @@
     margin-bottom: 100px;
     height:392px;
    
-    background: url("/Portfolio/images/project5-bg.svg") no-repeat center center;
+    background: url("../images/project5-bg.svg") no-repeat center center;
   }
   .project1-header img{
     
@@ -128,7 +128,7 @@
     align-items: center;
     justify-content: center;
     height:350px;
-    background: url("/Portfolio/images/bg-2.png") no-repeat center center;
+    background: url("../images/bg-2.png") no-repeat center center;
   }
 
   .quicklink-2{
@@ -162,7 +162,7 @@
     align-items: center;
     justify-content: center;
     height:350px;
-    background: url("/Portfolio/images/project4-bg.png") no-repeat center center;
+    background: url("../images/project4-bg.png") no-repeat center center;
   }
 
   .quicklink-5{
@@ -173,7 +173,7 @@
     align-items: center;
     justify-content: center;
     height:350px;
-    background: url("/Portfolio/images/bg-5.png") no-repeat center center;
+    background: url("../images/bg-5.png") no-repeat center center;
   }
 
   .quicklink-5 h3{
@@ -246,7 +246,7 @@
     margin-bottom:50px;
     display: flex;
     height:350px;
-    background: url("/Portfolio/images/bg-2.png") no-repeat center center;
+    background: url("../images/bg-2.png") no-repeat center center;
 
   }
 
@@ -291,7 +291,7 @@
     background-color: #99AFA6;
     margin-top: 50px;
     margin-bottom:50px;
-    background: url("/Portfolio/images/project4-bg.png") no-repeat center center;
+    background: url("../images/project4-bg.png") no-repeat center center;
   }
 
   .research-bg-4 h2{
@@ -647,12 +647,11 @@
   }
 
 
-  div.video{
+  .video{
     display: flex;
     flex-direction: column;
-    
-    margin-left: 120px;
-    margin-right: 120px;
+    margin-left: 150px;
+    margin-right: 150px;
     margin-top: 50px;
   }
 
@@ -675,7 +674,7 @@
     margin-left: 150px;
     margin-right: 150px;
     margin-top: 50px;
-    border-bottom: black solid 2px;
+     border-bottom: #A0ABDA solid 2px;
     
   }
 
@@ -871,7 +870,7 @@
   margin-left: 150px;
   margin-right: 150px;
     margin-top: 50px;
-    border-bottom: solid black 2px;
+    border-bottom: #A0ABDA solid 2px;
  }
 
  .plan h2{
