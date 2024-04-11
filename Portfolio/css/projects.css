@@ -90,7 +90,7 @@
   .overview h2{
     font-family: 'Satoshi-Medium';
     font-size: 40px;
-    /* border-bottom: solid black 2px; */
+   
    
   }
 
@@ -258,6 +258,25 @@
   }
 
 
+  .research-bg-4{
+    display: flex;
+    height:350px;
+    background-color: #99AFA6;
+    margin-top: 50px;
+    margin-bottom:50px;
+    background: url("/Portfolio/images/project4-bg.png") no-repeat center center;
+  }
+
+  .research-bg-4 h2{
+    display: block;
+    margin: auto;
+    font-family: 'Satoshi-Regular';
+    font-size: 72px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+
 
 
   .research{
@@ -399,7 +418,7 @@
     margin-left: 120px;
     margin-right: 120px;
     margin-top: 50px;
-    border-bottom: black solid 2px;
+    border-bottom: #A0ABDA solid 2px;
      justify-content: space-between;
 
   }
@@ -515,14 +534,21 @@
   }
 
   .wf-img{
+    border-bottom: #A0ABDA solid 2px;
+  }
+
+  .wf-img-2{
+
+  }
+
+
+
+  .wf-box{
     margin-top: 50px;
-    border-bottom: black solid 2px;
+    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-  }
-
-  .wf-box{
     margin-bottom: 50px;
   }
 
