@@ -109,14 +109,15 @@ html { scroll-behavior: smooth;}
     margin-top: 20px;
     margin-bottom: 20px;
     height:100px;
-    /* background-color: red; */
     border-bottom: solid black 2px;
     
 }
 
 .navbar a{
 
-    margin:30px;
+    margin-left:30px;
+    margin-top:30px;
+    margin-bottom: 30px;
     float: right;
     font-size: 20px;
     font-family: Satoshi-Bold;
