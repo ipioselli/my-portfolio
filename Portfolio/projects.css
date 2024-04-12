@@ -52,25 +52,25 @@
   .project1-header{
     margin-bottom: 100px;
     height:392px;
-    background: url("../images/bg.png") no-repeat center center;
+    background: url("images/bg.png") no-repeat center center;
   }
 
   .project2-header{
     margin-bottom: 100px;
     height:392px;
-    background: url("../images/project2-bg.svg") no-repeat center center;
+    background: url("images/project2-bg.svg") no-repeat center center;
   }
 
   .project3-header{
     margin-bottom: 100px;
     height:392px;
-    background: url("../images/project3-bg.svg") no-repeat center center;
+    background: url("images/project3-bg.svg") no-repeat center center;
   }
 
   .project4-header{
     margin-bottom: 100px;
     height:392px;
-    background: url("../images/bg-4.svg") no-repeat center center;
+    background: url("images/bg-4.svg") no-repeat center center;
   }
 
 
@@ -79,7 +79,7 @@
     margin-bottom: 100px;
     height:392px;
    
-    background: url("../images/project5-bg.svg") no-repeat center center;
+    background: url("images/project5-bg.svg") no-repeat center center;
   }
   .project1-header img{
     
@@ -128,7 +128,7 @@
     align-items: center;
     justify-content: center;
     height:350px;
-    background: url("../images/bg-2.png") no-repeat center center;
+    background: url("images/bg-2.png") no-repeat center center;
   }
 
   .quicklink-2{
@@ -162,7 +162,7 @@
     align-items: center;
     justify-content: center;
     height:350px;
-    background: url("../images/project4-bg.png") no-repeat center center;
+    background: url("images/project4-bg.png") no-repeat center center;
   }
 
   .quicklink-5{
@@ -173,7 +173,7 @@
     align-items: center;
     justify-content: center;
     height:350px;
-    background: url("../images/bg-5.png") no-repeat center center;
+    background: url("images/bg-5.png") no-repeat center center;
   }
 
   .quicklink-5 h3{
@@ -246,7 +246,7 @@
     margin-bottom:50px;
     display: flex;
     height:350px;
-    background: url("../images/bg-2.png") no-repeat center center;
+    background: url("images/bg-2.png") no-repeat center center;
 
   }
 
@@ -291,7 +291,7 @@
     background-color: #99AFA6;
     margin-top: 50px;
     margin-bottom:50px;
-    background: url("../images/project4-bg.png") no-repeat center center;
+    background: url("images/project4-bg.png") no-repeat center center;
   }
 
   .research-bg-4 h2{
@@ -308,7 +308,7 @@
     margin-bottom:50px;
     display: flex;
     height:350px;
-    background: url("../images/bg-5.png") no-repeat center center;
+    background: url("images/bg-5.png") no-repeat center center;
 
   }
 
